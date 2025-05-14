@@ -6,4 +6,4 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    return [i for i in fruits if 1!='apple']

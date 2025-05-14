@@ -9,4 +9,8 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    return
+    a=numbers1[-1]
+    numbers1.remove(a)
+    numbers2.append(a)
+    return numbers1+numbers2
+print(main([1,2,3,4],[9,8,7,6]))
